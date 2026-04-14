@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Globe } from "lucide-react";
+import polyLogo from "@/assets/poly-logo.png";
 
 const Footer = () => {
   return (
@@ -8,13 +8,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
-                <Globe className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold font-display text-foreground">Poly</span>
+              <img src={polyLogo} alt="Poly" className="h-8" />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Master any language with AI-powered lessons tailored to your pace and goals.
+              Master industry-specific language and jargon with AI-powered lessons built for professionals.
             </p>
           </div>
 
@@ -23,7 +20,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#features" className="hover:text-foreground transition-colors">Features</a></li>
               <li><a href="#how-it-works" className="hover:text-foreground transition-colors">How It Works</a></li>
-              <li><a href="#testimonials" className="hover:text-foreground transition-colors">Testimonials</a></li>
+              <li><a href="#industries" className="hover:text-foreground transition-colors">Industries</a></li>
             </ul>
           </div>
 
