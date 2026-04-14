@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Moon, Sun, Globe } from "lucide-react";
+import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import polyLogo from "@/assets/poly-logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,16 +28,13 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
-            <Globe className="w-5 h-5 text-primary-foreground" />
-          </div>
-          <span className="text-xl font-bold font-display text-foreground">Poly</span>
+          <img src={polyLogo} alt="Poly" className="h-8" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Features</a>
           <a href="#how-it-works" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">How It Works</a>
-          <a href="#testimonials" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Testimonials</a>
+          <a href="#industries" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Industries</a>
           <Link to="/support" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Support</Link>
         </nav>
 
@@ -59,7 +57,7 @@ const Header = () => {
           <nav className="container mx-auto px-6 py-4 flex flex-col gap-4">
             <a href="#features" className="text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Features</a>
             <a href="#how-it-works" className="text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>How It Works</a>
-            <a href="#testimonials" className="text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Testimonials</a>
+            <a href="#industries" className="text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Industries</a>
             <Link to="/support" className="text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Support</Link>
             <div className="flex items-center gap-3 pt-2">
               <Button variant="ghost" size="icon" onClick={toggleDark} className="rounded-full">
