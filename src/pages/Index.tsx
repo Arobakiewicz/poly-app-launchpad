@@ -58,7 +58,7 @@ const Index = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={0}>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/15 text-accent-foreground text-sm font-medium border border-accent/20 mb-6">
                 <Star className="w-3.5 h-3.5 fill-accent text-accent" />
-                Now available on the App Store
+                COming soon to the App Store
               </span>
             </motion.div>
 
@@ -84,7 +84,7 @@ const Index = () => {
             >
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-8 h-12 text-base">
                 <Smartphone className="w-5 h-5 mr-2" />
-                Download for iOS
+                Download Soon for iOS
               </Button>
               <Button size="lg" variant="outline" className="rounded-full px-8 h-12 text-base font-semibold">
                 Learn More
@@ -275,11 +275,11 @@ const Index = () => {
               Start Speaking Like a Pro
             </h2>
             <p className="text-primary-foreground/80 mb-8 max-w-md mx-auto">
-              Download Poly and master your industry's language. Free to get started.
+              Download Poly soon to master your industry's language. Free.
             </p>
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-8 h-12 text-base">
               <Smartphone className="w-5 h-5 mr-2" />
-              Download for iOS
+              Download Soon for iOS
             </Button>
           </motion.div>
         </div>
