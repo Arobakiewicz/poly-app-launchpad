@@ -43,7 +43,7 @@ const Header = () => {
             {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </Button>
           <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-6">
-            Download App
+            Download App Soon
           </Button>
         </div>
 
@@ -64,7 +64,7 @@ const Header = () => {
                 {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
               </Button>
               <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-6 flex-1">
-                Download App
+                Download App Soon
               </Button>
             </div>
           </nav>
