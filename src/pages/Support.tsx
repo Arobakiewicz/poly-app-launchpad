@@ -49,7 +49,7 @@ const Support = () => {
           <h2 className="text-2xl font-bold font-display text-foreground">Common Questions</h2>
 
           {[
-            { q: "How do I reset my password?", a: "Go to the login screen and tap 'Forgot Password.' Enter your email and follow the instructions sent to your inbox." }
+            { q: "How do I reset my password?", a: "Go to the login screen and tap 'Forgot Password.' Enter your email and follow the instructions sent to your inbox." },
             { q: "Is my data secure?", a: "Yes. We use industry-standard encryption and never sell your personal data. See our Privacy Policy for details." },
             { q: "Which languages are available?", a: "Poly currently working to support languages including Spanish, French, Mandarin, Japanese, German, Korean, and many more." },
           ].map((item) => (
