@@ -26,7 +26,7 @@ const Support = () => {
                 Send us an email and we'll get back to you within 24 hours.
               </p>
               <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full mt-auto">
-                <a href="mailto:support@polyglotlearning.com">Contact Us</a>
+                <a href="mailto:admin@poly.llc">Contact Us</a>
               </Button>
             </CardContent>
           </Card>
@@ -49,10 +49,9 @@ const Support = () => {
           <h2 className="text-2xl font-bold font-display text-foreground">Common Questions</h2>
 
           {[
-            { q: "How do I reset my password?", a: "Go to the login screen and tap 'Forgot Password.' Enter your email and follow the instructions sent to your inbox." },
-            { q: "How do I cancel my subscription?", a: "Open the Settings app on your iPhone → tap your name → Subscriptions → select Poly → Cancel Subscription." },
+            { q: "How do I reset my password?", a: "Go to the login screen and tap 'Forgot Password.' Enter your email and follow the instructions sent to your inbox." }
             { q: "Is my data secure?", a: "Yes. We use industry-standard encryption and never sell your personal data. See our Privacy Policy for details." },
-            { q: "Which languages are available?", a: "Poly currently supports 30+ languages including Spanish, French, Mandarin, Japanese, German, Korean, and many more." },
+            { q: "Which languages are available?", a: "Poly currently working to support languages including Spanish, French, Mandarin, Japanese, German, Korean, and many more." },
           ].map((item) => (
             <div key={item.q} className="border border-border rounded-xl p-5">
               <h3 className="font-semibold text-foreground mb-2">{item.q}</h3>
