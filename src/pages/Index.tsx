@@ -58,7 +58,7 @@ const Index = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp} custom={0}>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/15 text-accent-foreground text-sm font-medium border border-accent/20 mb-6">
                 <Star className="w-3.5 h-3.5 fill-accent text-accent" />
-                COming soon to the App Store
+                Coming to the App Store soon
               </span>
             </motion.div>
 
